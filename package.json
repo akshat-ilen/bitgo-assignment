@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/akshat-ilen/bitgo-assignment#readme",
   "dependencies": {
-    "axios": "^0.24.0"
+    "axios": "^0.24.0",
+    "axios-cache-adapter": "^2.7.3",
+    "lodash": "^4.17.21",
+    "lodash-unwind": "^1.2.3"
   }
 }
